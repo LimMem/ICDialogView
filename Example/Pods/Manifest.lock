@@ -1,0 +1,16 @@
+PODS:
+  - ICDialogView (0.1.0)
+
+DEPENDENCIES:
+  - ICDialogView (from `../`)
+
+EXTERNAL SOURCES:
+  ICDialogView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ICDialogView: 42800aab8c72610c45e32d9c9d8c9871da59642c
+
+PODFILE CHECKSUM: 8565b6bb793356237210115b5234ada4e5241771
+
+COCOAPODS: 1.9.3

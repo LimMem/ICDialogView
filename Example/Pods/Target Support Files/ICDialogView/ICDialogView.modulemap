@@ -1,0 +1,6 @@
+framework module ICDialogView {
+  umbrella header "ICDialogView-umbrella.h"
+
+  export *
+  module * { export * }
+}

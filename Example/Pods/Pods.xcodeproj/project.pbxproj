@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C79EABD27C2DD8E0EC750C82C414DFE /* ICDialogView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C05049A3F63497416F64760022D6B54 /* ICDialogView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13B0566BF7EBAD1C993C1C6D2441900A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		182CB538E88118458765F13E13E3ADB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2DF565064858EA5B3BF95763DED6AF1E /* ICDialogEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CC60E4879BA9DD1696329DAF804E32 /* ICDialogEmptyView.m */; };
+		3DEA2B03C65EE0A8C62FCC9A48B76736 /* ICDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4C1947F6B186E59F471977FB2FE09 /* ICDialogView.m */; };
+		4122073DDAEA66E3A981CFFABCDFD110 /* ICDialogView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 206F33F0C3649F36CFCE5FC07FA6E0C7 /* ICDialogView-dummy.m */; };
+		46999B9ADC15331F81E8A7F912613530 /* ICDialogView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3AC3F628D2B494FC597707D28F6FEA1 /* ICDialogView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49698E24865713F6357EB89F58AA21A0 /* Pods-ICDialogView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 744A7036FDC3F71F0EB10A7F929F91AE /* Pods-ICDialogView_Example-dummy.m */; };
+		49EA737AC06107A81754D8D5C9344B37 /* ICDialogWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A6A63B9A4A009B8FC358602DE8CB66B /* ICDialogWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52E3374477E9A1C806BA5FCDA2355711 /* ICDialogEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9A015487A2BEC87E27E2E0AABAAB73 /* ICDialogEmptyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6527A8CCE5963387B4793677C6CD227C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		69319ED86D51A2C7097CB04FDD0B373B /* ICDialogAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D6798D78AC711D6AB269A2089195E40 /* ICDialogAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AED564D062F076BBB10BCB69B1591AF6 /* Pods-ICDialogView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBC24908789E14A08FD73DD538E7635A /* Pods-ICDialogView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEAA1A644E50A3C5F89F2B0C5FB373A9 /* Pods-ICDialogView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A1CEC3C11A2E489572314008598EF2 /* Pods-ICDialogView_Tests-dummy.m */; };
+		C554CF789FCA4BC35324278DF257861E /* ICDialogView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 17D77478E7BAFA9D45CB7DEEB9C9AAF0 /* ICDialogView.bundle */; };
+		CF5B91178D082E46F9DDC96D7753A4FD /* ICDialogAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7CCFE7DF203C8EFFF5CADFC97DE5CD /* ICDialogAction.m */; };
+		F2DD9FB0908BCEAA4D945C0FEC1A3574 /* ICDialogWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04589B86EB3AE1315814EAF33F4F4C67 /* ICDialogWebView.m */; };
+		FF7061647F9673A8AAD03455F962D6A6 /* Pods-ICDialogView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD993086185B1F93109416ECE250EC13 /* Pods-ICDialogView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9336E3DFD7CF5369692B4846FE28DF3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C59FEEC42F891B4CFDCADFFE09302852;
+			remoteInfo = "ICDialogView-ICDialogView";
+		};
+		B58D8C0EB0F3073ACD1223654EDD1829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D816FCA4755055B1CCF2A5C71027AF;
+			remoteInfo = "Pods-ICDialogView_Example";
+		};
+		D666E28005EAE4DED99E5F652042C13E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EED5BE5A4E8F0055A8CF55386EAE7E5B;
+			remoteInfo = ICDialogView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04589B86EB3AE1315814EAF33F4F4C67 /* ICDialogWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ICDialogWebView.m; path = ICDialogView/Classes/ICDialogView/ICDialogWebView.m; sourceTree = "<group>"; };
+		0530FF6A8BE44021BAC74FEB8ACB05B7 /* ICDialogView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ICDialogView.modulemap; sourceTree = "<group>"; };
+		0A6A63B9A4A009B8FC358602DE8CB66B /* ICDialogWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICDialogWebView.h; path = ICDialogView/Classes/ICDialogView/ICDialogWebView.h; sourceTree = "<group>"; };
+		13064F452FCB627FD3FEE16EF8EE157E /* Pods-ICDialogView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ICDialogView_Tests.modulemap"; sourceTree = "<group>"; };
+		15A1CEC3C11A2E489572314008598EF2 /* Pods-ICDialogView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICDialogView_Tests-dummy.m"; sourceTree = "<group>"; };
+		17D77478E7BAFA9D45CB7DEEB9C9AAF0 /* ICDialogView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ICDialogView.bundle; path = "ICDialogView-ICDialogView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		192428EF255B9907CA3978F9E2CCBD55 /* ICDialogView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICDialogView.debug.xcconfig; sourceTree = "<group>"; };
+		1C10EEBDFBA706D3F837E74CF3D15060 /* Pods-ICDialogView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICDialogView_Example-Info.plist"; sourceTree = "<group>"; };
+		206F33F0C3649F36CFCE5FC07FA6E0C7 /* ICDialogView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ICDialogView-dummy.m"; sourceTree = "<group>"; };
+		20CC60E4879BA9DD1696329DAF804E32 /* ICDialogEmptyView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ICDialogEmptyView.m; path = ICDialogView/Classes/ICDialogView/ICDialogEmptyView.m; sourceTree = "<group>"; };
+		244F57659DBA6FB0DA846D520DE99BD8 /* Pods-ICDialogView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICDialogView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		25F4C1947F6B186E59F471977FB2FE09 /* ICDialogView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ICDialogView.m; path = ICDialogView/Classes/ICDialogView/ICDialogView.m; sourceTree = "<group>"; };
+		2914AD568E6DB7E85F78C1C6FBFB563B /* Pods-ICDialogView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICDialogView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2C05049A3F63497416F64760022D6B54 /* ICDialogView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICDialogView.h; path = ICDialogView/Classes/ICDialogView/ICDialogView.h; sourceTree = "<group>"; };
+		2C3C4427B65714CAE870DBED437CA131 /* ResourceBundle-ICDialogView-ICDialogView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ICDialogView-ICDialogView-Info.plist"; sourceTree = "<group>"; };
+		2C8159532F2B990CCB35D56BDA6645B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4464E7F3A62F5DD3D2ADAEE4F6DCEF7E /* Pods-ICDialogView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICDialogView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4D6D2DE913DE3470BF2190C6613E37B4 /* Pods-ICDialogView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICDialogView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		53A62BB7025FA8298618AA85F9636225 /* ICDialogView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICDialogView.release.xcconfig; sourceTree = "<group>"; };
+		5730362B5ECE8E4656A9506D38C40E5B /* Pods-ICDialogView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ICDialogView_Example.modulemap"; sourceTree = "<group>"; };
+		5D365ADFB430AF8D9A57A61680EE4DEE /* ICDialogView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ICDialogView-Info.plist"; sourceTree = "<group>"; };
+		744A7036FDC3F71F0EB10A7F929F91AE /* Pods-ICDialogView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICDialogView_Example-dummy.m"; sourceTree = "<group>"; };
+		7D6798D78AC711D6AB269A2089195E40 /* ICDialogAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICDialogAction.h; path = ICDialogView/Classes/ICDialogView/ICDialogAction.h; sourceTree = "<group>"; };
+		89AEE9B135F2F8D597FC79790D62BE9D /* Pods-ICDialogView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICDialogView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B961DDC188054587C951144B4423178 /* ICDialogView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ICDialogView.framework; path = ICDialogView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A25F497299A286E3D8540865891536C2 /* ICDialogView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICDialogView-prefix.pch"; sourceTree = "<group>"; };
+		A3AC3F628D2B494FC597707D28F6FEA1 /* ICDialogView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICDialogView-umbrella.h"; sourceTree = "<group>"; };
+		B2DDAD3FE2278DE22C4B437450B4159B /* Pods-ICDialogView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICDialogView_Tests-Info.plist"; sourceTree = "<group>"; };
+		BD70A138DEAAF1BE74B80D814CE3A915 /* Pods_ICDialogView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ICDialogView_Example.framework; path = "Pods-ICDialogView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD993086185B1F93109416ECE250EC13 /* Pods-ICDialogView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ICDialogView_Example-umbrella.h"; sourceTree = "<group>"; };
+		BE9A015487A2BEC87E27E2E0AABAAB73 /* ICDialogEmptyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICDialogEmptyView.h; path = ICDialogView/Classes/ICDialogView/ICDialogEmptyView.h; sourceTree = "<group>"; };
+		BFAF2841199DC218091F680F975F395D /* ICDialogView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ICDialogView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CCA32E57D8EA2DF5281FE5961BEDC10C /* Pods-ICDialogView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICDialogView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBC24908789E14A08FD73DD538E7635A /* Pods-ICDialogView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ICDialogView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E1D1EA79644BA1C5EA138854838D99FA /* Pods-ICDialogView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICDialogView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E1E1FDACA4F6D0BCC76FDDD95968F780 /* Pods-ICDialogView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICDialogView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA5385AABA4F81844ED2E6DACB4CE0A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F488BD9B5D785771DEFABC60899A6075 /* Pods_ICDialogView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ICDialogView_Tests.framework; path = "Pods-ICDialogView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC87E3A7C51B945B03DE4A9F479880DD /* Pods-ICDialogView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICDialogView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD7CCFE7DF203C8EFFF5CADFC97DE5CD /* ICDialogAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ICDialogAction.m; path = ICDialogView/Classes/ICDialogView/ICDialogAction.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70F698ACABC217844B477C869F880827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B0566BF7EBAD1C993C1C6D2441900A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98330AE59E2FD6858C6EC3942C55E43D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A066DA457399C2C5138BCA11C8BCC259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6527A8CCE5963387B4793677C6CD227C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E31126FF476F5413134684E791929902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182CB538E88118458765F13E13E3ADB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1428CDD1974B77B481A746A71D8938CF /* Pods-ICDialogView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5730362B5ECE8E4656A9506D38C40E5B /* Pods-ICDialogView_Example.modulemap */,
+				89AEE9B135F2F8D597FC79790D62BE9D /* Pods-ICDialogView_Example-acknowledgements.markdown */,
+				CCA32E57D8EA2DF5281FE5961BEDC10C /* Pods-ICDialogView_Example-acknowledgements.plist */,
+				744A7036FDC3F71F0EB10A7F929F91AE /* Pods-ICDialogView_Example-dummy.m */,
+				244F57659DBA6FB0DA846D520DE99BD8 /* Pods-ICDialogView_Example-frameworks.sh */,
+				1C10EEBDFBA706D3F837E74CF3D15060 /* Pods-ICDialogView_Example-Info.plist */,
+				BD993086185B1F93109416ECE250EC13 /* Pods-ICDialogView_Example-umbrella.h */,
+				E1D1EA79644BA1C5EA138854838D99FA /* Pods-ICDialogView_Example.debug.xcconfig */,
+				4D6D2DE913DE3470BF2190C6613E37B4 /* Pods-ICDialogView_Example.release.xcconfig */,
+			);
+			name = "Pods-ICDialogView_Example";
+			path = "Target Support Files/Pods-ICDialogView_Example";
+			sourceTree = "<group>";
+		};
+		25911076BC73BECA6616B145465F64A8 /* ICDialogView */ = {
+			isa = PBXGroup;
+			children = (
+				7D6798D78AC711D6AB269A2089195E40 /* ICDialogAction.h */,
+				FD7CCFE7DF203C8EFFF5CADFC97DE5CD /* ICDialogAction.m */,
+				BE9A015487A2BEC87E27E2E0AABAAB73 /* ICDialogEmptyView.h */,
+				20CC60E4879BA9DD1696329DAF804E32 /* ICDialogEmptyView.m */,
+				2C05049A3F63497416F64760022D6B54 /* ICDialogView.h */,
+				25F4C1947F6B186E59F471977FB2FE09 /* ICDialogView.m */,
+				0A6A63B9A4A009B8FC358602DE8CB66B /* ICDialogWebView.h */,
+				04589B86EB3AE1315814EAF33F4F4C67 /* ICDialogWebView.m */,
+				930EFD7DBCA4776600F53A8C96665717 /* Pod */,
+				2CABDE88EFA9B9B75E7BF757F2B53B89 /* Support Files */,
+			);
+			name = ICDialogView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2CABDE88EFA9B9B75E7BF757F2B53B89 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0530FF6A8BE44021BAC74FEB8ACB05B7 /* ICDialogView.modulemap */,
+				206F33F0C3649F36CFCE5FC07FA6E0C7 /* ICDialogView-dummy.m */,
+				5D365ADFB430AF8D9A57A61680EE4DEE /* ICDialogView-Info.plist */,
+				A25F497299A286E3D8540865891536C2 /* ICDialogView-prefix.pch */,
+				A3AC3F628D2B494FC597707D28F6FEA1 /* ICDialogView-umbrella.h */,
+				192428EF255B9907CA3978F9E2CCBD55 /* ICDialogView.debug.xcconfig */,
+				53A62BB7025FA8298618AA85F9636225 /* ICDialogView.release.xcconfig */,
+				2C3C4427B65714CAE870DBED437CA131 /* ResourceBundle-ICDialogView-ICDialogView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ICDialogView";
+			sourceTree = "<group>";
+		};
+		51E995ECD38A33C3550F17903211B88E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1428CDD1974B77B481A746A71D8938CF /* Pods-ICDialogView_Example */,
+				C7D5757EEBF9DB213B1C700029972277 /* Pods-ICDialogView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52967495C595647D949FC59CE770310D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17D77478E7BAFA9D45CB7DEEB9C9AAF0 /* ICDialogView.bundle */,
+				8B961DDC188054587C951144B4423178 /* ICDialogView.framework */,
+				BD70A138DEAAF1BE74B80D814CE3A915 /* Pods_ICDialogView_Example.framework */,
+				F488BD9B5D785771DEFABC60899A6075 /* Pods_ICDialogView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		930EFD7DBCA4776600F53A8C96665717 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BFAF2841199DC218091F680F975F395D /* ICDialogView.podspec */,
+				2C8159532F2B990CCB35D56BDA6645B0 /* LICENSE */,
+				EA5385AABA4F81844ED2E6DACB4CE0A7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7D5757EEBF9DB213B1C700029972277 /* Pods-ICDialogView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13064F452FCB627FD3FEE16EF8EE157E /* Pods-ICDialogView_Tests.modulemap */,
+				4464E7F3A62F5DD3D2ADAEE4F6DCEF7E /* Pods-ICDialogView_Tests-acknowledgements.markdown */,
+				E1E1FDACA4F6D0BCC76FDDD95968F780 /* Pods-ICDialogView_Tests-acknowledgements.plist */,
+				15A1CEC3C11A2E489572314008598EF2 /* Pods-ICDialogView_Tests-dummy.m */,
+				B2DDAD3FE2278DE22C4B437450B4159B /* Pods-ICDialogView_Tests-Info.plist */,
+				DBC24908789E14A08FD73DD538E7635A /* Pods-ICDialogView_Tests-umbrella.h */,
+				FC87E3A7C51B945B03DE4A9F479880DD /* Pods-ICDialogView_Tests.debug.xcconfig */,
+				2914AD568E6DB7E85F78C1C6FBFB563B /* Pods-ICDialogView_Tests.release.xcconfig */,
+			);
+			name = "Pods-ICDialogView_Tests";
+			path = "Target Support Files/Pods-ICDialogView_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F71DA7A77B62A0F16EF4ABD65E8296C4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				52967495C595647D949FC59CE770310D /* Products */,
+				51E995ECD38A33C3550F17903211B88E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F71DA7A77B62A0F16EF4ABD65E8296C4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25911076BC73BECA6616B145465F64A8 /* ICDialogView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3481E8CF1D0D1FA9278B4657D0A6A323 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69319ED86D51A2C7097CB04FDD0B373B /* ICDialogAction.h in Headers */,
+				52E3374477E9A1C806BA5FCDA2355711 /* ICDialogEmptyView.h in Headers */,
+				46999B9ADC15331F81E8A7F912613530 /* ICDialogView-umbrella.h in Headers */,
+				0C79EABD27C2DD8E0EC750C82C414DFE /* ICDialogView.h in Headers */,
+				49EA737AC06107A81754D8D5C9344B37 /* ICDialogWebView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA07F1E34B641ACCE41C5919CEB175E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AED564D062F076BBB10BCB69B1591AF6 /* Pods-ICDialogView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8DBDE90AD583E4B0E7BFC2B940966F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7061647F9673A8AAD03455F962D6A6 /* Pods-ICDialogView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3ED43CD454C3A3F10D42E10E6C3C6DC6 /* Pods-ICDialogView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C25FC43B62F8DD10547C2B6D6BE82D /* Build configuration list for PBXNativeTarget "Pods-ICDialogView_Tests" */;
+			buildPhases = (
+				AFA07F1E34B641ACCE41C5919CEB175E /* Headers */,
+				768BFC3661C5695841272A355C3284E7 /* Sources */,
+				E31126FF476F5413134684E791929902 /* Frameworks */,
+				43BBE8E20AB3C62A3B0BD2577E8EF941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				206204A781F62A253A94B2F5A5301CB2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ICDialogView_Tests";
+			productName = "Pods-ICDialogView_Tests";
+			productReference = F488BD9B5D785771DEFABC60899A6075 /* Pods_ICDialogView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98D816FCA4755055B1CCF2A5C71027AF /* Pods-ICDialogView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D366CDCF811E643F7A95801F4EC2C570 /* Build configuration list for PBXNativeTarget "Pods-ICDialogView_Example" */;
+			buildPhases = (
+				B8DBDE90AD583E4B0E7BFC2B940966F3 /* Headers */,
+				48C1DDE0AF003305C4C19D731245A383 /* Sources */,
+				70F698ACABC217844B477C869F880827 /* Frameworks */,
+				33552A480445898C529FE903DEB9FA6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A64FB060655A42B9F10537A25CE5CA /* PBXTargetDependency */,
+			);
+			name = "Pods-ICDialogView_Example";
+			productName = "Pods-ICDialogView_Example";
+			productReference = BD70A138DEAAF1BE74B80D814CE3A915 /* Pods_ICDialogView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C59FEEC42F891B4CFDCADFFE09302852 /* ICDialogView-ICDialogView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C295DBC966172EADCBFB1E02EFAB341 /* Build configuration list for PBXNativeTarget "ICDialogView-ICDialogView" */;
+			buildPhases = (
+				9AEFBC064DDB9D260F9AA4C2408C0306 /* Sources */,
+				98330AE59E2FD6858C6EC3942C55E43D /* Frameworks */,
+				3704721C8C31AA50FD3E6DB9E4E76D2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ICDialogView-ICDialogView";
+			productName = "ICDialogView-ICDialogView";
+			productReference = 17D77478E7BAFA9D45CB7DEEB9C9AAF0 /* ICDialogView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EED5BE5A4E8F0055A8CF55386EAE7E5B /* ICDialogView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900E0C14B8C0B445DDFC5DE7FB723B8E /* Build configuration list for PBXNativeTarget "ICDialogView" */;
+			buildPhases = (
+				3481E8CF1D0D1FA9278B4657D0A6A323 /* Headers */,
+				B461AEB6E8FA1272CDF5EE34D351E436 /* Sources */,
+				A066DA457399C2C5138BCA11C8BCC259 /* Frameworks */,
+				4A582CF6E8BF1B014A0FF099ECAE4B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA14A8F0729AB37BE8E890BF6113B6D /* PBXTargetDependency */,
+			);
+			name = ICDialogView;
+			productName = ICDialogView;
+			productReference = 8B961DDC188054587C951144B4423178 /* ICDialogView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 52967495C595647D949FC59CE770310D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED5BE5A4E8F0055A8CF55386EAE7E5B /* ICDialogView */,
+				C59FEEC42F891B4CFDCADFFE09302852 /* ICDialogView-ICDialogView */,
+				98D816FCA4755055B1CCF2A5C71027AF /* Pods-ICDialogView_Example */,
+				3ED43CD454C3A3F10D42E10E6C3C6DC6 /* Pods-ICDialogView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33552A480445898C529FE903DEB9FA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3704721C8C31AA50FD3E6DB9E4E76D2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BBE8E20AB3C62A3B0BD2577E8EF941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A582CF6E8BF1B014A0FF099ECAE4B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C554CF789FCA4BC35324278DF257861E /* ICDialogView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48C1DDE0AF003305C4C19D731245A383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49698E24865713F6357EB89F58AA21A0 /* Pods-ICDialogView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768BFC3661C5695841272A355C3284E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEAA1A644E50A3C5F89F2B0C5FB373A9 /* Pods-ICDialogView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEFBC064DDB9D260F9AA4C2408C0306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B461AEB6E8FA1272CDF5EE34D351E436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5B91178D082E46F9DDC96D7753A4FD /* ICDialogAction.m in Sources */,
+				2DF565064858EA5B3BF95763DED6AF1E /* ICDialogEmptyView.m in Sources */,
+				4122073DDAEA66E3A981CFFABCDFD110 /* ICDialogView-dummy.m in Sources */,
+				3DEA2B03C65EE0A8C62FCC9A48B76736 /* ICDialogView.m in Sources */,
+				F2DD9FB0908BCEAA4D945C0FEC1A3574 /* ICDialogWebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A64FB060655A42B9F10537A25CE5CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ICDialogView;
+			target = EED5BE5A4E8F0055A8CF55386EAE7E5B /* ICDialogView */;
+			targetProxy = D666E28005EAE4DED99E5F652042C13E /* PBXContainerItemProxy */;
+		};
+		206204A781F62A253A94B2F5A5301CB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ICDialogView_Example";
+			target = 98D816FCA4755055B1CCF2A5C71027AF /* Pods-ICDialogView_Example */;
+			targetProxy = B58D8C0EB0F3073ACD1223654EDD1829 /* PBXContainerItemProxy */;
+		};
+		DAA14A8F0729AB37BE8E890BF6113B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ICDialogView-ICDialogView";
+			target = C59FEEC42F891B4CFDCADFFE09302852 /* ICDialogView-ICDialogView */;
+			targetProxy = 9336E3DFD7CF5369692B4846FE28DF3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21356FCA485C06A885624D4D59EF4D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192428EF255B9907CA3978F9E2CCBD55 /* ICDialogView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ICDialogView/ICDialogView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ICDialogView/ICDialogView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ICDialogView/ICDialogView.modulemap";
+				PRODUCT_MODULE_NAME = ICDialogView;
+				PRODUCT_NAME = ICDialogView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21AEAA364245B91969F26F7CA2F518A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2914AD568E6DB7E85F78C1C6FBFB563B /* Pods-ICDialogView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ICDialogView_Tests/Pods-ICDialogView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICDialogView_Tests/Pods-ICDialogView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4152AE28ABE245C26D4D53407A57EFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D6D2DE913DE3470BF2190C6613E37B4 /* Pods-ICDialogView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ICDialogView_Example/Pods-ICDialogView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICDialogView_Example/Pods-ICDialogView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		559058B9D880614DD265F9BC8BE155F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A62BB7025FA8298618AA85F9636225 /* ICDialogView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ICDialogView";
+				IBSC_MODULE = ICDialogView;
+				INFOPLIST_FILE = "Target Support Files/ICDialogView/ResourceBundle-ICDialogView-ICDialogView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ICDialogView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		61C4DB5DACD7CECDEC330445DF731C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A62BB7025FA8298618AA85F9636225 /* ICDialogView.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ICDialogView/ICDialogView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ICDialogView/ICDialogView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ICDialogView/ICDialogView.modulemap";
+				PRODUCT_MODULE_NAME = ICDialogView;
+				PRODUCT_NAME = ICDialogView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92F46551C4CC5FA053B96F7274422BE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192428EF255B9907CA3978F9E2CCBD55 /* ICDialogView.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ICDialogView";
+				IBSC_MODULE = ICDialogView;
+				INFOPLIST_FILE = "Target Support Files/ICDialogView/ResourceBundle-ICDialogView-ICDialogView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ICDialogView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C27A1550DD0754ACC630863EDCA7022E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC87E3A7C51B945B03DE4A9F479880DD /* Pods-ICDialogView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ICDialogView_Tests/Pods-ICDialogView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICDialogView_Tests/Pods-ICDialogView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE4285F1BC24F2271831D77599ED295A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D1EA79644BA1C5EA138854838D99FA /* Pods-ICDialogView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ICDialogView_Example/Pods-ICDialogView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICDialogView_Example/Pods-ICDialogView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C295DBC966172EADCBFB1E02EFAB341 /* Build configuration list for PBXNativeTarget "ICDialogView-ICDialogView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F46551C4CC5FA053B96F7274422BE4 /* Debug */,
+				559058B9D880614DD265F9BC8BE155F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900E0C14B8C0B445DDFC5DE7FB723B8E /* Build configuration list for PBXNativeTarget "ICDialogView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21356FCA485C06A885624D4D59EF4D84 /* Debug */,
+				61C4DB5DACD7CECDEC330445DF731C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D366CDCF811E643F7A95801F4EC2C570 /* Build configuration list for PBXNativeTarget "Pods-ICDialogView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE4285F1BC24F2271831D77599ED295A /* Debug */,
+				4152AE28ABE245C26D4D53407A57EFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C25FC43B62F8DD10547C2B6D6BE82D /* Build configuration list for PBXNativeTarget "Pods-ICDialogView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C27A1550DD0754ACC630863EDCA7022E /* Debug */,
+				21AEAA364245B91969F26F7CA2F518A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
