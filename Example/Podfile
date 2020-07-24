@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ICDialogView_Example' do
+  pod 'ICDialogView', :path => '../'
+
+  target 'ICDialogView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
