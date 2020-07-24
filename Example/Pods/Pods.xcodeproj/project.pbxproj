@@ -57,7 +57,7 @@
 		0A6A63B9A4A009B8FC358602DE8CB66B /* ICDialogWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICDialogWebView.h; path = ICDialogView/Classes/ICDialogView/ICDialogWebView.h; sourceTree = "<group>"; };
 		13064F452FCB627FD3FEE16EF8EE157E /* Pods-ICDialogView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ICDialogView_Tests.modulemap"; sourceTree = "<group>"; };
 		15A1CEC3C11A2E489572314008598EF2 /* Pods-ICDialogView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICDialogView_Tests-dummy.m"; sourceTree = "<group>"; };
-		17D77478E7BAFA9D45CB7DEEB9C9AAF0 /* ICDialogView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ICDialogView.bundle; path = "ICDialogView-ICDialogView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D77478E7BAFA9D45CB7DEEB9C9AAF0 /* ICDialogView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICDialogView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		192428EF255B9907CA3978F9E2CCBD55 /* ICDialogView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICDialogView.debug.xcconfig; sourceTree = "<group>"; };
 		1C10EEBDFBA706D3F837E74CF3D15060 /* Pods-ICDialogView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICDialogView_Example-Info.plist"; sourceTree = "<group>"; };
 		206F33F0C3649F36CFCE5FC07FA6E0C7 /* ICDialogView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ICDialogView-dummy.m"; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		2914AD568E6DB7E85F78C1C6FBFB563B /* Pods-ICDialogView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICDialogView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2C05049A3F63497416F64760022D6B54 /* ICDialogView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICDialogView.h; path = ICDialogView/Classes/ICDialogView/ICDialogView.h; sourceTree = "<group>"; };
 		2C3C4427B65714CAE870DBED437CA131 /* ResourceBundle-ICDialogView-ICDialogView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ICDialogView-ICDialogView-Info.plist"; sourceTree = "<group>"; };
-		2C8159532F2B990CCB35D56BDA6645B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2C8159532F2B990CCB35D56BDA6645B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4464E7F3A62F5DD3D2ADAEE4F6DCEF7E /* Pods-ICDialogView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICDialogView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4D6D2DE913DE3470BF2190C6613E37B4 /* Pods-ICDialogView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICDialogView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,21 +77,21 @@
 		744A7036FDC3F71F0EB10A7F929F91AE /* Pods-ICDialogView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICDialogView_Example-dummy.m"; sourceTree = "<group>"; };
 		7D6798D78AC711D6AB269A2089195E40 /* ICDialogAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICDialogAction.h; path = ICDialogView/Classes/ICDialogView/ICDialogAction.h; sourceTree = "<group>"; };
 		89AEE9B135F2F8D597FC79790D62BE9D /* Pods-ICDialogView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICDialogView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8B961DDC188054587C951144B4423178 /* ICDialogView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ICDialogView.framework; path = ICDialogView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B961DDC188054587C951144B4423178 /* ICDialogView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ICDialogView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25F497299A286E3D8540865891536C2 /* ICDialogView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICDialogView-prefix.pch"; sourceTree = "<group>"; };
 		A3AC3F628D2B494FC597707D28F6FEA1 /* ICDialogView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICDialogView-umbrella.h"; sourceTree = "<group>"; };
 		B2DDAD3FE2278DE22C4B437450B4159B /* Pods-ICDialogView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICDialogView_Tests-Info.plist"; sourceTree = "<group>"; };
-		BD70A138DEAAF1BE74B80D814CE3A915 /* Pods_ICDialogView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ICDialogView_Example.framework; path = "Pods-ICDialogView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD70A138DEAAF1BE74B80D814CE3A915 /* Pods_ICDialogView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICDialogView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD993086185B1F93109416ECE250EC13 /* Pods-ICDialogView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ICDialogView_Example-umbrella.h"; sourceTree = "<group>"; };
 		BE9A015487A2BEC87E27E2E0AABAAB73 /* ICDialogEmptyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICDialogEmptyView.h; path = ICDialogView/Classes/ICDialogView/ICDialogEmptyView.h; sourceTree = "<group>"; };
-		BFAF2841199DC218091F680F975F395D /* ICDialogView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ICDialogView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFAF2841199DC218091F680F975F395D /* ICDialogView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ICDialogView.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		CCA32E57D8EA2DF5281FE5961BEDC10C /* Pods-ICDialogView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICDialogView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DBC24908789E14A08FD73DD538E7635A /* Pods-ICDialogView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ICDialogView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E1D1EA79644BA1C5EA138854838D99FA /* Pods-ICDialogView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICDialogView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E1E1FDACA4F6D0BCC76FDDD95968F780 /* Pods-ICDialogView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICDialogView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EA5385AABA4F81844ED2E6DACB4CE0A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F488BD9B5D785771DEFABC60899A6075 /* Pods_ICDialogView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ICDialogView_Tests.framework; path = "Pods-ICDialogView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5385AABA4F81844ED2E6DACB4CE0A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F488BD9B5D785771DEFABC60899A6075 /* Pods_ICDialogView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICDialogView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC87E3A7C51B945B03DE4A9F479880DD /* Pods-ICDialogView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICDialogView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD7CCFE7DF203C8EFFF5CADFC97DE5CD /* ICDialogAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ICDialogAction.m; path = ICDialogView/Classes/ICDialogView/ICDialogAction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -694,8 +694,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
