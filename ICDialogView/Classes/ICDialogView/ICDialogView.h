@@ -7,14 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ICDialogAction.h"
 
 typedef NS_ENUM(NSInteger, ICDialogViewStyle) {
     ICDialogViewStyleAlert,   // 中间alert弹出方式
     ICDialogViewStyleWebAlertView // 中间视图是个webview
 };
 
-@class ICDialogAction;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ICDialogView : UIView
@@ -34,7 +33,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 /* 隐藏视图 */
 - (void)hideDialogView;
-
 
 
 @end

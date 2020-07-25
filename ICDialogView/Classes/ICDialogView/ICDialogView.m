@@ -105,7 +105,7 @@ static const CGFloat marginH = 40;
             maxY = CGRectGetMaxY(self.titleLabel.frame);
         } else {
             self.titleLabel.frame = CGRectMake(spaceH, 0, self.viewWidth - spaceH * 2, CGRectGetHeight(self.titleLabel.frame) + 2 * spaceV);
-            self.contentLabel.frame = CGRectMake(spaceH, CGRectGetMaxY(self.titleLabel.frame) + spaceV, self.viewWidth - spaceH * 2,[self getLabelHeight:self.contentLabel]);
+            self.contentLabel.frame = CGRectMake(spaceH, CGRectGetMaxY(self.titleLabel.frame) , self.viewWidth - spaceH * 2,[self getLabelHeight:self.contentLabel]);
             maxY = CGRectGetMaxY(self.contentLabel.frame);
         }
     } else {
@@ -114,16 +114,21 @@ static const CGFloat marginH = 40;
         maxY = CGRectGetMaxY(self.contentLabel.frame);
     }
     
+    if (self.message.length == 0 || self.title.length == 0  ) {
+        spaceV = 0;
+    }
     if (self.actionList.count == 1) {
-        self.actionList[0].frame = CGRectMake(spaceH, maxY + 12, self.viewWidth - spaceH * 2, 40);
+        self.actionList[0].frame = CGRectMake(spaceH, maxY + spaceV, self.viewWidth - spaceH * 2, 36);
         maxY = CGRectGetMaxY(self.actionList[0].frame);
     } else if (self.actionList.count == 2) {
         CGFloat btnWidth = (self.viewWidth - spaceH * 2 - 10) / 2;
-         self.actionList[0].frame = CGRectMake(spaceH, maxY + 12, btnWidth, 40);
-        self.actionList[1].frame = CGRectMake(CGRectGetMaxX(self.actionList[0].frame) + 10, maxY + 12, btnWidth, 40);
+         self.actionList[0].frame = CGRectMake(spaceH, maxY + spaceV, btnWidth, 36);
+        self.actionList[1].frame = CGRectMake(CGRectGetMaxX(self.actionList[0].frame) + 10, maxY + spaceV, btnWidth, 36);
         maxY = CGRectGetMaxY(self.actionList[0].frame);
     }
     
+    spaceV = 12;
+
     CGRect frame = self.bgView.frame;
     frame.size.height = maxY + spaceV;
     frame.origin.y = (CGRectGetHeight(self.frame) - frame.size.height) / 2;
@@ -149,12 +154,12 @@ static const CGFloat marginH = 40;
     maxY = CGRectGetMaxY(self.webView.frame);
     
     if (self.actionList.count == 1) {
-        self.actionList[0].frame = CGRectMake(spaceH, maxY + 12, self.viewWidth - spaceH * 2, 40);
+        self.actionList[0].frame = CGRectMake(spaceH, maxY + 12, self.viewWidth - spaceH * 2, 36);
         maxY = CGRectGetMaxY(self.actionList[0].frame);
     } else if (self.actionList.count == 2) {
         CGFloat btnWidth = (self.viewWidth - spaceH * 2 - 10) / 2;
-        self.actionList[0].frame = CGRectMake(spaceH, maxY + 12, btnWidth, 40);
-        self.actionList[1].frame = CGRectMake(CGRectGetMaxX(self.actionList[0].frame) + 10, maxY + 12, btnWidth, 40);
+        self.actionList[0].frame = CGRectMake(spaceH, maxY + 12, btnWidth, 36);
+        self.actionList[1].frame = CGRectMake(CGRectGetMaxX(self.actionList[0].frame) + 10, maxY + 12, btnWidth, 36);
         maxY = CGRectGetMaxY(self.actionList[0].frame);
     }
     
@@ -230,6 +235,7 @@ static const CGFloat marginH = 40;
 }
 
 - (CGFloat)getLabelHeight:(UILabel *)label {
+    [label sizeToFit];
     CGFloat height = CGRectGetHeight(label.frame) > self.viewWidth ? self.viewWidth : CGRectGetHeight(label.frame);
     return height;
 }
@@ -238,7 +244,7 @@ static const CGFloat marginH = 40;
     [self.dialogActions addObject:action];
     UIButton *btn = [[UIButton alloc] init];
     [btn setTitle:action.title forState:UIControlStateNormal];
-    btn.layer.cornerRadius = 20;
+    btn.layer.cornerRadius = 18;
     btn.layer.masksToBounds = YES;
     btn.layer.borderWidth = 1;
     btn.tag = self.dialogActions.count;
@@ -308,7 +314,7 @@ static const CGFloat marginH = 40;
 
 - (UILabel *)contentLabel {
     if (!_contentLabel) {
-        _contentLabel = [[UILabel alloc] init];
+        _contentLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.viewWidth - 40, 0)];
         _contentLabel.textColor = [UIColor colorWithRed:4/255.0 green:28/255.0 blue:30/255.0 alpha:1.0];
         _contentLabel.font = [UIFont systemFontOfSize:16];
         _contentLabel.numberOfLines = 0;
@@ -336,7 +342,7 @@ static const CGFloat marginH = 40;
 
 - (UILabel *)titleLabel {
     if (!_titleLabel) {
-        _titleLabel = [[UILabel alloc] init];
+        _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.viewWidth, 0)];
         if (@available(iOS 8.2, *)) {
             _titleLabel.font = [UIFont systemFontOfSize:18 weight:UIFontWeightMedium];
         }

@@ -27,3 +27,20 @@ LimMem, qcl901028@gmail.com
 ## License
 
 ICDialogView is available under the MIT license. See the LICENSE file for more info.
+
+## 如何使用
+
+```
+ #import<ICDialogView/ICDialogView.h>
+ 
+ICDialogView *dialogView = [ICDialogView dialogViewWithTitle:@"是否删除所有的搜索记录？" message:@"" preferredStyle:ICDialogViewStyleAlert];
+
+[dialogView addAction: [ICDialogAction actionWithTitle:@"取消" style:ICDialogActionStyleCancel handler:nil]];
+
+[dialogView addAction: [ICDialogAction actionWithTitle:@"确认" style:ICDialogActionStyleDefault handler:^(ICDialogAction * _Nonnull action) {
+
+}]];
+[dialogView showDialogViewToSuperView:self.view];
+
+
+```

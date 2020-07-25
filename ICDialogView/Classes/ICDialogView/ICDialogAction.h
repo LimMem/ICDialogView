@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) OnActionHandle actionHandle;
 
 
-+ (instancetype)actionWithTitle:(nullable NSString *)title style:(ICDialogActionStyle)style handler:(void (^)(ICDialogAction *action))handler;
++ (instancetype)actionWithTitle:(nullable NSString *)title style:(ICDialogActionStyle)style handler:(nullable void (^)(ICDialogAction *action))handler;
 
 
 @end
