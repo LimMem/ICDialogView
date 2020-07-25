@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ICDialogView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ICDialogView是一个弹出框'
 
 # This description is used to generate tags and improve search results.
